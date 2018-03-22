@@ -1,7 +1,8 @@
 # Introduction to Blender
 
 This repo contains all the materials I've used for my presentation about
-Blender at Adam Mickiewicz University.
+Blender at Adam Mickiewicz University. There's small tutorial in `basic_tutorial.blend` file
+that covers basic editing actions in Blender.
 
 ## Things I've mentioned
 
