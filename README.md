@@ -5,7 +5,7 @@ Blender at Adam Mickiewicz University.
 
 ## Things I've mentioned
 
-* [Is Blender the future of 2D Animation? (YouTube)](Is Blender the future of 2D Animation?)
+* [Is Blender the future of 2D Animation? (YouTube)](https://www.youtube.com/watch?v=L1Wl3YoRe8w)
 * [Tears of Steel (YouTube)](https://www.youtube.com/watch?v=R6MlUcmOul8)
 * [Magnetic Fields (YouTube)](https://www.youtube.com/watch?v=2_hwGahuDRE)
 * [3D Scientific Visualization with Blender](https://www.cv.nrao.edu/~bkent/blender/index.html)
