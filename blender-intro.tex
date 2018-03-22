@@ -17,6 +17,7 @@
 \usepackage{minted}
 \usepackage[english]{babel}
 \usepackage[utf8x]{inputenc}
+\usepackage[absolute,overlay]{textpos}
 
 \title[Blender Intro]{Introduction to Blender}
 \author{Łukasz Hryniuk}
@@ -26,13 +27,13 @@
 
 \begin{frame}
   \titlepage
+  \centering\href{https://github.com/hryniuk/blender-intro}{github.com/hryniuk/blender-intro}
 \end{frame}
 
 \begin{frame}{Outline}
   \tableofcontents
   
-  \centering \Large
-  \href{https://github.com/hryniuk/blender-intro}{github.com/hryniuk/blender-intro}
+  \centering \Large It won't cover texturing and animation
 \end{frame}
 
 \section{Introduction}
@@ -72,10 +73,10 @@
 
 \begin{frame}{Motivation}
 
-Two examples, how Blender may help you and what's possible:
+Two examples - how Blender may help you and what's possible:
 \begin{itemize}
 \item \href{https://www.cv.nrao.edu/~bkent/blender/index.html}{3D Scientific Visualization with Blender} - book and tutorials
-\item \href{https://agent327.com/}{Agent 327: Operation Barbershop}
+\item \href{https://agent327.com/}{Agent 327: Operation Barbershop} - “the Netherlands’ answer to James Bond"
 \end{itemize}
 
 \end{frame}
@@ -97,9 +98,9 @@ Two examples, how Blender may help you and what's possible:
 
 % TODO: add descriptions to these modes
 \begin{itemize}
-\item Object
-\item Edit
-\item Sculpt
+\item Object - object datablock edition
+\item Edit - parts of the mesh (curves and surfaces) edition
+\item Sculpt - mesh sculpting (more or less "area-based" mesh edition)
 \end{itemize}
 
 \end{frame}
@@ -114,9 +115,8 @@ Two examples, how Blender may help you and what's possible:
 \section{Shortcuts and editing}
 
 \begin{frame}{How we can edit objects?}
-In fact \textbf{12} shortcuts + mouse are enough to do most of the things.
-
-Starting from object mode:
+In fact 12 shortcuts + mouse are enough
+to do most of the things efficiently. Starting from \textbf{object mode}:
 \begin{itemize}
 \item \textbf{G}rab
 \item \textbf{S}cale
@@ -131,7 +131,7 @@ Starting from object mode:
 
 \begin{frame}{How we can edit objects?}
 
-...and in edit mode (switch with TAB):
+...and in edit mode (switch it with \textbf{TAB}):
 \begin{itemize}
 \item Add \textbf{F}ace
 \item \textbf{E}xtrude
@@ -147,7 +147,7 @@ Starting from object mode:
 \begin{frame}{How we can edit objects?}
 
 \centering \Large
-\emph{Beside that, there are also modifiers I've mentioned before}
+{Beside that, one can also use modifiers available in a separate tab (under shortcuts too): Array, Boolean, Screw and Soldify to name a few}
 
 \end{frame}
 
@@ -160,25 +160,30 @@ Starting from object mode:
 
 \section{Rendering}
 
-\begin{frame}{Rendering - how to get an image from the scene?}
+\begin{frame}{Rendering engines - how to get an image from the scene?}
 
-There are two built-in rendering engines in Blender (you can get more with Add-ons):
+Just press \textbf{F12}. There are three rendering engines in Blender (you can get more with Add-ons):
 \begin{itemize}
-\item Blender Render - basic render that can be used for simple scenes
-\item Cycles Render - realistic effect
+\item Blender Render - the oldest and the simplest
+\item Blender Game - for the Blender Game Engine; designed for interactive use
+\item \textbf{Cycles Render} - physically based production renderer for photorealistic images
 \end{itemize}
 
 \end{frame}
 
 \begin{frame}{Blender Render vs Cycles Render}
 
+\begin{textblock*}{6cm}(0.2cm,2cm) % {block width} (coords)
 \begin{figure}
-\includegraphics[scale=0.4]{blender_render.png}
+\includegraphics[scale=0.6]{blender_render.png}
 \end{figure}
+\end{textblock*}
 
+\begin{textblock*}{6cm}(6.5cm,2cm) % {block width} (coords)
 \begin{figure}
-\includegraphics[scale=0.4]{cycles_render.png}
+\includegraphics[scale=0.6]{cycles_render.png}
 \end{figure}
+\end{textblock*}
 
 \end{frame}
 
@@ -190,7 +195,7 @@ There are two built-in rendering engines in Blender (you can get more with Add-o
 \end{frame}
 
 
-\begin{frame}{Some links}
+\begin{frame}{Learning resources}
 
 \begin{itemize}
 \item \href{https://www.blenderguru.com/}{Blender Guru tutorials}
