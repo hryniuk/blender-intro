@@ -1,3 +1,5 @@
+![Image with example](https://raw.githubusercontent.com/hryniuk/blender-intro/master/render.png?raw=true)
+
 # Introduction to Blender
 
 This repo contains all the materials I've used for my presentation about
