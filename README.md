@@ -3,8 +3,14 @@
 # Introduction to Blender
 
 This repo contains all the materials I've used for my presentation about
-Blender at Adam Mickiewicz University. There's small tutorial in `basic_tutorial.blend` file
-that covers basic editing actions in Blender.
+Blender at Adam Mickiewicz University. There a few files here:
+* [`basic_tutorial.blend`](https://github.com/hryniuk/blender-intro/raw/master/basic_tutorial.blend) - tutorial that covers basic editing actions in Blender
+* [`animation.blend`](https://github.com/hryniuk/blender-intro/raw/master/animation.blend) - example of animation created using Python
+* [`function.blend`](https://github.com/hryniuk/blender-intro/raw/master/function.blend) - example of applying a function to a plane's vertices
+* [`gen_pos.py`](https://github.com/hryniuk/blender-intro/blob/master/gen_pos.py) - script I've use to generate [`positions.json`](https://github.com/hryniuk/blender-intro/blob/master/positions.json) file used in `animation.blend`
+* [`intro.blend`](https://github.com/hryniuk/blender-intro/raw/master/intro.blend) - Blender project for the scene from the image above
+* [`blender-intro.tex`](https://github.com/hryniuk/blender-intro/blob/master/blender-intro.tex) - source file of the [slides from our first meeting](https://github.com/hryniuk/blender-intro/blob/master/blender-intro.pdf)
+* [`python-in-blender.tex`](https://github.com/hryniuk/blender-intro/blob/master/python-in-blender.tex) - source file of the [slides from our first meeting](https://github.com/hryniuk/blender-intro/blob/master/python-in-blender.pdf)
 
 ## Things I've mentioned
 
