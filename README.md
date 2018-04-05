@@ -20,6 +20,7 @@ that covers basic editing actions in Blender.
 * [Blender infographic map](https://www.giudansky.com/design/51-blender-map)
 * [Blender Guru tutorials](https://www.blenderguru.com/)
 * [Blender.org tutorials](https://www.blender.org/support/tutorials/)
+* [Official Blender/Python API Documentation](https://docs.blender.org/api/current/)
 
 ### PL
 
