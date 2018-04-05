@@ -3,7 +3,7 @@
 # Introduction to Blender
 
 This repo contains all the materials I've used for my presentation about
-Blender at Adam Mickiewicz University. There a few files here:
+Blender at Adam Mickiewicz University. There are a few files here:
 * [`basic_tutorial.blend`](https://github.com/hryniuk/blender-intro/raw/master/basic_tutorial.blend) - tutorial that covers basic editing actions in Blender
 * [`animation.blend`](https://github.com/hryniuk/blender-intro/raw/master/animation.blend) - example of animation created using Python
 * [`function.blend`](https://github.com/hryniuk/blender-intro/raw/master/function.blend) - example of applying a function to a plane's vertices
